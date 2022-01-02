@@ -1,0 +1,381 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "raleway", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* navbar */
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "raleway", sans-serif;
+}
+
+.nav-center {
+    width: 90vw
+}
+
+.nav-header {
+    height: 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo img {
+    width: 80px;
+}
+
+.nav-links a {
+    color: hsl(243, 87%, 12%);
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+/* illustration-1 */
+
+.section-one img {
+    height: fit-content;
+    width: 450px;
+}
+
+/* All your files in one place */
+
+.section-two {
+    text-align: center;
+    color: hsl(243, 87%, 12%);
+    padding: 15px;
+}
+
+.section-two h1 {
+    font-size: 30px;
+}
+
+.paragraph {
+    padding: 0px 40px;
+    line-height: 1.5;
+}
+
+input[type=text] {
+    width: 75%;
+    color: rgb(105, 104, 104);
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: rgb(6, 84, 253);
+    width: 75%;
+    border-radius: 6px;
+    margin-bottom: 55px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(4, 111, 252);
+}
+
+/* illustration-2  */
+
+.curve-background {
+    background-image: url("../images/bg-curve-mobile.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.section-three img {
+    padding-top: 80px;
+    height: fit-content;
+    width: 450px;
+}
+
+/* stay productive,wherever you are */
+
+.section-four {
+    line-height: 1.5rem;
+    border-radius: 6px;
+    padding: 20px 10px;
+    margin: 50px 0px 60px;
+}
+
+.section-four h3 {
+    color: hsl(243, 87%, 12%);
+    text-align: center;
+}
+
+.section-four p {
+    font-family: "open sans";
+    color: hsl(0, 7%, 32%);
+}
+
+#how-flow-works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#how-flow-works a {
+    text-decoration: none;
+    color: rgb(55, 107, 55);
+    border-bottom: 1px solid rgb(55, 107, 55);
+}
+
+#how-flow-works a:hover {
+    color: rgb(9, 209, 9);
+    border-bottom: 1px solid rgb(9, 209, 9);
+}
+
+#how-flow-works img {
+    margin: 6px;
+}
+
+#comment-box {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 6px;
+    background-color: white;
+    min-height: 150px;
+    width: 70%;
+    margin: 30px 60px;
+    padding: 15px 35px;
+    font-size: 13px;
+    line-height: 1.0rem;
+}
+
+#comment-picture {
+    display: flex;
+    align-items: center;
+}
+
+#comment-picture img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#kyle {
+    font-weight: bold;
+}
+
+/* Get early Access today */
+
+.section-five {
+    background-color: hsl(238, 22%, 44%);
+    color: white;
+    text-align: center;
+    padding: 30px 60px;
+
+}
+
+/* footer */
+
+footer {
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 10px 30px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+}
+
+footer div {
+    margin: 20px;
+}
+
+.logo-bottom {
+    filter: brightness(0) invert(1);
+    margin-bottom: 10px;
+}
+
+.icons {
+    margin: 5px;
+}
+
+.social-icons {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.social-icons:hover {
+    color: rgb(11, 132, 245);
+}
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:992px) {
+    .container {
+        width: 85%;
+    }
+
+    .section-one {
+        margin-bottom: 20px;
+        width: 45%;
+        float: right;
+        padding-top: 20px;
+        padding-left: 50px;
+        height: 400px;
+    }
+
+    .section-two {
+        text-align: left;
+        height: 400px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+        width: 55%;
+        float: left;
+    }
+
+    .paragraph {
+        padding: 0px;
+    }
+
+    .curve-background {
+        background-image: url("../images/bg-curve-desktop.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    input[type=text] {
+        width: 50%;
+        margin-left: 0px;
+
+    }
+
+    .btn {
+        width: 200px;
+    }
+
+    .section-three {
+        padding-left: 50px;
+        width: 45%;
+        float: right;
+    }
+
+    .section-three img {
+        padding-top: 0px;
+        height: 400px;
+
+    }
+
+    .section-four {
+        width: 55%;
+        float: left;
+    }
+
+    .section-four h3 {
+        text-align: left;
+        font-size: 30px;
+    }
+
+    #how-flow-works {
+        justify-content: left;
+    }
+
+    #comment-box {
+        width: 55%;
+        margin: 30px 0px;
+    }
+
+    .section-five {
+        background-color: hsl(238, 22%, 44%);
+        color: white;
+        text-align: start;
+        display: flex;
+
+    }
+
+    .early-access {
+        float: left;
+        width: 40%;
+    }
+
+    .early-access h3 {
+        font-size: 30px;
+    }
+
+    .early-access2 {
+        float: right;
+        width: 50%;
+        margin: auto 0 auto 150px;
+        padding-left: 100px;
+    }
+
+    .early-access2 input[type=text] {
+        width: 100%;
+    }
+
+    footer {
+        padding: 10px 0px;
+
+    }
+
+    footer div {
+        margin: 30px auto;
+    }
+
+
+    .bottom {
+        display: flex;
+    }
+
+    .footer-categeory1 {
+        flex: 1;
+    }
+
+    .footer-categeory2 {
+        flex: 1;
+    }
+
+    .footer-categeory3 {
+        flex: 1;
+    }
+
+
+}
